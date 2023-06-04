@@ -8,7 +8,7 @@ body {
 
 main {
   width: clamp(50rem, 80vw, 80rem);
-  background: linear-gradient(#a8dadc, #f1faee);
+  background: linear-gradient(#c0d1be, #f1faee, #f1faee, #c0d1be);
   margin: 0 auto;
 }
 
@@ -67,6 +67,7 @@ li {
   padding: 0.3rem 0.5rem;
   margin: 0.3rem 0;
   border-radius: 0.3rem;
+  transform: translateX(-1.1rem);
 }
 
 button {
@@ -130,6 +131,16 @@ footer {
   border: 0.1rem solid;
   border-radius: 0.6rem;
   box-shadow: 0 0 0.6rem #000;
+}
+
+.country {
+  align-items: flex-end;
+  margin: 0 0 0.2rem 0;
+}
+
+.chemical {
+  align-items: flex-start;
+  margin: 0.2rem 0 0 0;
 }
 
 .img-grid {
